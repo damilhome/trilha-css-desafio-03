@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: "Roboto", sans-serif;
+}
+
 /* HEADER */
 
 .page-header {
@@ -88,4 +92,50 @@
     border-radius: 50%;
     background-image: url("../images/header/perfil.png");
     background-size: cover;
+}
+
+/* NAV */
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 218px 1fr;
+    grid-template-rows: 1fr;
+}
+
+.sidebar {
+    margin-top: 10px;
+    width: 218px;
+    /* display: grid; */
+}
+
+.sidebar p {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.nav-option {
+    margin: 20px 12px;
+}
+
+.nav-option a{
+    display: grid;
+    grid-template-columns: 12px 40px 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    color: #000;
+    text-decoration: none;;
+}
+
+.nav-option a img {
+    grid-column-start: 2;
+}
+
+/* VÍDEOS */
+
+.page-videos {
+    width: 100%;
+    height: 100%;
+    background-color: #F9F9F9;
 }
