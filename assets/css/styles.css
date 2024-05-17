@@ -13,21 +13,72 @@
 
 .page-header {
     width: 100%;
+    height: 56px;
+    padding: 0 24px;
     display: grid;
     grid-template-columns: 146px 1fr 1fr 1fr 146px;
-    grid-template-rows: 56px;
+    grid-template-rows: 1fr;
 }
 
 .left-items {
     grid-column-start: 1;
+    margin: auto 0;
+}
+
+.menu-hamburguer {
+    margin: auto 0;
+    background-color: transparent;
+}
+
+.youtube-logo {
+    margin: auto 0 auto 26px;
 }
 
 .center-items {
     grid-column-start: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: auto 0;
+}
+
+.search-bar {
+    width: 348px;
+    height: 40px;
+    border: 1px solid #ccc;
+    grid-column: 2;
+}
+
+.search-button {
+    width: 57px;
+    height: 40px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    grid-column: 3;
 }
 
 .right-items {
     grid-column-start: 5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: auto 0;
+}
+
+.upload-button-icon {
+    /* grid-column: 1; */
+    margin: auto 15px auto 0;
+}
+
+.notifications-icon {
+    /* grid-column: 3 / 4; */
+    margin: auto 15px auto 15px;
+}
+
+.profile-icon {
+    /* grid-column: 5 / 6; */
+    margin: auto 0 auto 17px;
 }
 
 .profile-icon {
