@@ -8,3 +8,33 @@
     list-style: none;
     box-sizing: border-box;
 }
+
+/* HEADER */
+
+.page-header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 146px 1fr 1fr 1fr 146px;
+    grid-template-rows: 56px;
+}
+
+.left-items {
+    grid-column-start: 1;
+}
+
+.center-items {
+    grid-column-start: 3;
+}
+
+.right-items {
+    grid-column-start: 5;
+}
+
+.profile-icon {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-image: url("../images/header/perfil.png");
+    background-size: cover;
+}
